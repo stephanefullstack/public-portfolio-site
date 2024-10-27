@@ -1,0 +1,104 @@
+
+[
+	{
+		"id": "1",
+		"cover": "/assets/cover/cover-3d-logo.jpg",
+		"title": "Blender Logo",
+		"desc": "Blender Logo 设计",
+		"category": "3d",
+		"tag": "3D",
+		"date": "2024-07-05"
+	},
+	{
+		"id": "2",
+		"cover": "/assets/cover/pexels-tink-s-838159870-19489123.jpg",
+		"title": "阿勒泰",
+		"desc": "阿勒泰旅行记录",
+		"category": "photography",
+		"tag": "摄影",
+		"date": "2024-07-05"
+	},
+	{
+		"id": "3",
+		"cover": "/assets/cover/pexels-brett-sayles-1115175.jpg",
+		"title": "街景",
+		"desc": "",
+		"category": "photography",
+		"tag": "摄影",
+		"date": "2024-07-05"
+	},
+	{
+		"id": "4",
+		"cover": "/assets/cover/cover-3d-cloud.jpg",
+		"title": "Blender  云服务场景",
+		"desc": "Blender, Cloud",
+		"category": "3d",
+		"tag": "3D",
+		"date": "2024-07-05"
+	},
+	{
+		"id": "5",
+		"cover": "/assets/cover/cover-todo.jpg",
+		"title": "待办清单网页版",
+		"desc": "一款优秀的设计简洁的 Todolist 网页版本",
+		"url": "https://todo.606design.art/",
+		"detail": "/detail/todo",
+		"category": "web",
+		"tag": "Web",
+		"date": "2024-10-07"
+	},
+	{
+		"id": "6",
+		"cover": "/assets/cover/cover-travel.jpg",
+		"title": "Tink 旅行生活日记",
+		"desc": "Mobile 网站",
+		"url": "https://travellife.zeabur.app/",
+		"detail": "/detail/tinklife",
+		"category": "ui",
+		"tag": "UI",
+		"date": "2024-10-07"
+	},
+	{
+		"id": "7",
+		"cover": "/assets/cover/cover-free-3d-valentines-assets.jpg",
+		"title": "Valentine's Day 3D Icons",
+		"desc": "Free 3D Icons Pack",
+		"url": "https://web.606design.art/landings/004-free-3d-valentines-assets/",
+		"detail": "/detail/free-3d-valentines-assets/",
+		"category":  "web,3d",
+		"tag": "3D",
+		"date": "2024-10-8"
+	},
+	{
+		"id": "8",
+		"cover": "/assets/cover/cover-todo.jpg",
+		"title": "待办清单网页版",
+		"desc": "一款优秀的设计简洁的 Todolist 网页版本",
+		"url": "https://todo.606design.art/",
+		"detail": "/detail/todo",
+		"category": "web",
+		"tag": "Web",
+		"date": "2024-10-07"
+	},
+	{
+		"id": "9",
+		"cover": "/assets/cover/cover-606design.jpg",
+		"title": "606 网页灵感",
+		"desc": "606 Web Inspiration",
+		"category": "web",
+		"tag": "WEB",
+		"date": "2024-06-29",
+		"mark": true
+	},
+	{
+		"id": "10",
+		"cover": "/assets/cover/cover-ricocc.jpg",
+		"title": "Rico的个人网站",
+		"desc": "Rico Personal Website",
+		"category": "web",
+		"tag": "WEB",
+		"date": "2024-06-29",
+		"mark": true
+	}
+
+]
