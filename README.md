@@ -3,6 +3,9 @@
 ## 网站预览
 模板地址:  [Chenxi Blog](https://chenxi.zeabur.app/)
 
+<img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
+
+
 ## 作者博客网站
 
 - 主题网站地址：  [Ricocc Blog - blog.ricocc.com](https://blog.ricocc.com/)
