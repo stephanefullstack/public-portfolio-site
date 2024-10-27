@@ -172,5 +172,4 @@ Yarn Command:
 
 如果觉得不错，一点点支持可以帮助我持续更新，感谢！
 
-<img src="public/ricocc/ricocc-wechat.jpg" alt="ricocc-wechat" width="250" height="auto" style="display:inline-block;margin:12px;">
-<img src="public/ricocc/ricocc-zhifubao.jpg" alt="ricocc-zhifubao"  width="250" height="auto" style="display:inline-block;margin:12px;">
+<img src="public/ricocc/zanshangma.jpg" alt="ricocc-wechat" width="280" height="auto" style="display:inline-block;margin:12px;">
