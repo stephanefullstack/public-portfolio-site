@@ -20,6 +20,10 @@ export default defineConfig({
   // hybrid - 构建包含少量服务端渲染页面的静态网站。
   // output: 'static'
   // --- 
+  // 增量构建
+  experimental: {
+    contentCollectionCache: true,
+  },
   markdown: {
     // 示例：在 Markdown 中使用 prism 进行语法高亮显示
     // syntaxHighlight: 'prism',
@@ -32,6 +36,6 @@ export default defineConfig({
     wrap: true,
     }
   },
-  site: 'https://chenxi.zeabur.app/',
+  site: 'https://blog-template.606design.art/',
   integrations: [sitemap()]
 })
