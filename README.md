@@ -1,13 +1,12 @@
 # 设计师的个人网站 - Design Portfolio Site - Astro.js
-
 ## 网站预览
-模板地址:  [Chenxi Blog](https://chenxi.zeabur.app/)
+模板地址:  [设计师个人网站模板](https://blog-template.606design.art/)
 
 <img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 
-## 作者博客网站
-
+## 作者博客网站 - Ricocc
+- 作者：Ricocc 
 - 主题网站地址：  [Ricocc Blog - blog.ricocc.com](https://blog.ricocc.com/)
 - 小红书：[@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)
 - 站酷：[Ricocc](https://ricocc.zcool.com.cn/?ref=openBlog)
