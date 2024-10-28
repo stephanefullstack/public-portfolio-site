@@ -1,6 +1,6 @@
-# 设计师的个人网站 - Design Portfolio Site - Astro.js
+# 设计师的个人网站 - Designer Portfolio Site - Astro.js
 ## 网站预览
-模板地址:  [设计师个人网站模板](https://blog-template.606design.art/)
+预览模板地址:  [设计师个人网站模板](https://blog-template.606design.art/)
 
 <img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
 
@@ -161,6 +161,7 @@ Yarn Command:
 ## 关于作者
 
 我是 Rico， 目标是成为一个优秀的设计师和创意开发者，目前专注于网页视觉的技术实现，也研究研究 3D，建建站。目前我在积极的创作一些作品，做有趣和创意性的东西。并且开始探索自媒体，学习如何打造自己的个人IP。有兴趣的话，也可以关注一下我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: hello@606design.art, 也可以从下方添加我的微信一起聊聊。
+
 ![wechat qrcode](https://blog.ricocc.com/_astro/wechat.8EH0Rk_I_Zy61KM.webp)
 
 
