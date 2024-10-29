@@ -1,12 +1,12 @@
-# 设计师的个人网站 - Designer Portfolio Site - Astro.js
+# 设计师的个人网站 Designer Portfolio Site - Astro.js
 ## 网站预览
-预览模板地址:  [设计师个人网站模板](https://blog-template.606design.art/)
-
+预览模板地址:  [https://blog-template.606design.art/](https://blog-template.606design.art/)
+仓库地址:  [https://github.com/ricocc/public-portfolio-site](https://github.com/ricocc/public-portfolio-site)
 <img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 
 ## 作者博客网站 - Ricocc
-- 作者：Ricocc 
+- 作者：Ricocc
 - 主题网站地址：  [Ricocc Blog - blog.ricocc.com](https://blog.ricocc.com/)
 - 小红书：[@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)
 - 站酷：[Ricocc](https://ricocc.zcool.com.cn/?ref=openBlog)
@@ -14,7 +14,7 @@
 
 
 ## 技术栈
-- AstroJs 4.15.9
+- Astro.js 4.15.9
 - Sass 1.79.4
 - typescript: 5.6.2
 
