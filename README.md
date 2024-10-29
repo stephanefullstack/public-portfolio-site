@@ -1,7 +1,10 @@
 # 设计师的个人网站 Designer Portfolio Site - Astro.js
+
 ## 网站预览
 预览模板地址:  [https://blog-template.606design.art/](https://blog-template.606design.art/)
+
 仓库地址:  [https://github.com/ricocc/public-portfolio-site](https://github.com/ricocc/public-portfolio-site)
+
 <img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 
