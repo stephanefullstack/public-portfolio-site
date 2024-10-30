@@ -8,27 +8,23 @@
 <img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 
-## 作者博客网站 - Ricocc
-- 作者：Ricocc
-- 主题网站地址：  [Ricocc Blog - blog.ricocc.com](https://blog.ricocc.com/)
-- 小红书：[@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)
-- 站酷：[Ricocc](https://ricocc.zcool.com.cn/?ref=openBlog)
-- Dribbble：[Ricocc](https://dribbble.com/rrrricocc)
 
-
-## 技术栈
+## 💻 技术栈
 - Astro.js 4.15.9
 - Sass 1.79.4
 - typescript: 5.6.2
 
-## 基础用法说明
+## ⛳ 部署 Deployment
+Fork这个项目，然后在Vercel, 或者 Netlify 中新建项目，选择Github仓库，配置默认即可。
+
+
+## ✨ 基础用法说明
 ### Data 网站主要信息
  主要的网站信息，主要集中在 `src/data/` 下面，可以通过修改这几个文件中的数据来修改为自己的网站，
  - `content.ts` 网站的基本信息，包括联系方式、导航、TDK 等
  - `project.ts` 项目信息，主要展示在项目列表中，但是具体的项目详细页面，需要手动创建
  - `home.json` 首页展示的作品列表，可选择展示的内容信息比较多
  About 页面需要手动添加自己的个人介绍，博客内容，只需要在 `content/blog/*`文件夹下面添加 markdown 文件即可, 按照固定格式，博客列表会自动添加标题和路径
-
 
 
  网站主要信息存放在  `src/data/content.ts`
@@ -80,8 +76,8 @@ export interface ProjectItem {
 	title_en?: string //英文项目名称
 	description?: string  // 项目描述
 	date?: string		//发布日期
-	detail?: string //详细页路径
-  url?: string  //上线链接
+	detail?: string  //详细页路径
+	url?: string  //上线链接
 	tags?: string[] //标签
 	cover?: string[] //封面
 }
@@ -127,9 +123,22 @@ Inside of your Astro project, you'll see the following folders and files:
 │       └── 404.astro
 ├── package.json
 ```
+## 🚀 启动 Getting Started
+👉 Install Dependencies
+``` 
+yarn
+```
+👉 Development Command
 
+``` 
+yarn dev
+```
+👉 Build Command
+```
+yarn build
+```
 
-## 🧞 启动
+## 🧞 命令参考
 
 All commands are run from the root of the project, from a terminal:
 
@@ -161,9 +170,15 @@ Yarn Command:
  这是初步的尝试，后面会继续完善。是否添加 Headless CMS 来进行管理，还在考虑中。
 
 
-## 关于作者
+## 👨‍💻 关于作者
 
-我是 Rico， 目标是成为一个优秀的设计师和创意开发者，目前专注于网页视觉的技术实现，也研究研究 3D，建建站。目前我在积极的创作一些作品，做有趣和创意性的东西。并且开始探索自媒体，学习如何打造自己的个人IP。有兴趣的话，也可以关注一下我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: hello@606design.art, 也可以从下方添加我的微信一起聊聊。
+-  **Ricocc**
+- 主题网站地址：  [Ricocc Blog - blog.ricocc.com](https://blog.ricocc.com/)
+- 小红书：[@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)
+- 站酷：[Ricocc](https://ricocc.zcool.com.cn/?ref=openBlog)
+- Dribbble：[Ricocc](https://dribbble.com/rrrricocc)
+
+我是 Rico， 目标是成为一个优秀的设计师和创意开发者，目前专注于网页视觉的技术实现，也研究研究 3D，建建站。目前我在积极的创作一些作品，做有趣和创意性的东西。并且开始探索自媒体。有兴趣的话，也可以关注一下我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: hello@606design.art, 也可以从下方添加我的微信一起聊聊。
 
 ![wechat qrcode](https://blog.ricocc.com/_astro/wechat.8EH0Rk_I_Zy61KM.webp)
 
@@ -176,3 +191,10 @@ Yarn Command:
 如果觉得不错，一点点支持可以帮助我持续更新，感谢！
 
 <img src="public/ricocc/zanshangma.jpg" alt="ricocc-wechat" width="280" height="auto" style="display:inline-block;margin:12px;">
+
+## 📝 License
+
+
+Copyright (c) 2024 - Present, Designed & Developed by <a href="https://blog.ricocc.com" target="_blank">Ricocc</a>.
+
+Code License: Released under the MIT license.
