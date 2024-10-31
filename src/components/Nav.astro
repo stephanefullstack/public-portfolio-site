@@ -2,8 +2,9 @@
 // import Icon, { Props as IconProps } from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import Effect from "../effects/Effect.astro";
-import EffectSwitch from "../effects/EffectSwitch.astro";
 import {nav} from '../data/content';
+import EffectSwitch from "../effects/EffectSwitch.astro";
+import NavMobile from "../components/NavMobile.astro";
 ---
 
 <nav>
@@ -17,11 +18,11 @@ import {nav} from '../data/content';
 							draggable="false">
 					</figure>
 				</a>
-				<EffectSwitch />
+				<EffectSwitch client:load transition:persist/>
 			</div>
 		</div>
 		<div id="menu-content">
-			<div class="menu-footer">
+			<div class="menu-footer pc-nav">
 				<ul class="nav-items">
 					{nav.items?.map(item => (
 						<li>
@@ -46,6 +47,7 @@ import {nav} from '../data/content';
 					<ThemeToggle />
 				</div>
 			</div>
+			<NavMobile/>
 		</div>
 	</div>
 </nav>
@@ -86,6 +88,7 @@ import {nav} from '../data/content';
 </script>
 
 <style>
+
 	nav {
 		z-index: 9999;
 		position: relative;
@@ -117,6 +120,7 @@ import {nav} from '../data/content';
 	.site-title {
 		display: flex;
 		gap: 0.5rem;
+		justify-content: flex-start;
 		align-items: center;
 		line-height: 1.1;
 		color: var(--color-0);
@@ -164,14 +168,16 @@ import {nav} from '../data/content';
 		align-items: center;
 		font-size:1rem;
 		font-weight: normal;
-		line-height: 1.2;
+		line-height:1;
 		list-style: none;
 		padding: 0;
 		position: relative;
 		border: 0;
 		gap: calc(var(--gap)*1.5);
 	}
-
+	.nav-items li{
+		margin:0;
+	}
 	.link {
 		display: inline-block;
 		color: var(--color-300);
@@ -189,7 +195,7 @@ import {nav} from '../data/content';
 		display: flex;
 		justify-content: space-between;
 		gap: 0.75rem;
-		padding: .35rem 1.5rem;
+		padding: .35rem 0rem;
 	}
 
 	.socials {
@@ -244,5 +250,12 @@ import {nav} from '../data/content';
 			padding: 0;
 		}
 	}
-
+	.pc-nav{
+ 	 	display: none;
+	}
+	@media (min-width: 767px) {
+		.pc-nav{
+			display: flex;
+		}
+	}
 </style>

@@ -411,45 +411,44 @@ mark code{
 	/*------------------------------------------------------------------
 	 #设置滚动条
 	-------------------------------------------------------------------*/
-		// html::-webkit-scrollbar {
-		// 	width: 8px;
-		// }
+		html::-webkit-scrollbar {
+			width: 8px;
+		}
+		html::-webkit-scrollbar-track {
+			background: var(--color-100);
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+		}
 
-		// html::-webkit-scrollbar-track {
-		// 	background: #1b1d1f;
-		// 	border-radius: 6px;
-		// 	-webkit-border-radius: 6px;
-		// 	-moz-border-radius: 6px;
-		// 	-ms-border-radius: 6px;
-		// 	-o-border-radius: 6px;
-		// }
+		html::-webkit-scrollbar-thumb {
+			background: var(--color-300);
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+		}
 
-		// html::-webkit-scrollbar-thumb {
-		// 	background: rgb(56, 56, 56);
-		// 	border-radius: 6px;
-		// 	-webkit-border-radius: 6px;
-		// 	-moz-border-radius: 6px;
-		// 	-ms-border-radius: 6px;
-		// 	-o-border-radius: 6px;
-		// }
+		html::-webkit-scrollbar-thumb:hover {
+			background: var(--color-blue);
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+		}
 
-		// html::-webkit-scrollbar-thumb:hover {
-		// 	background: rgb(38, 92, 162);
-		// 	border-radius: 6px;
-		// 	-webkit-border-radius: 6px;
-		// 	-moz-border-radius: 6px;
-		// 	-ms-border-radius: 6px;
-		// 	-o-border-radius: 6px;
-		// }
-
-		// html::-webkit-scrollbar-thumb:active {
-		// 	background: rgb(26, 26, 26);
-		// 	border-radius: 6px;
-		// 	-webkit-border-radius: 6px;
-		// 	-moz-border-radius: 6px;
-		// 	-ms-border-radius: 6px;
-		// 	-o-border-radius: 6px;
-		// }
+		html::-webkit-scrollbar-thumb:active {
+			background: var(--color-100);
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+		}
 
 	/*------------------------------------------------------------------
 	 #common base class  style

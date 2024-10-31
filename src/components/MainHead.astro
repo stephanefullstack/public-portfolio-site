@@ -1,7 +1,6 @@
 ---
 import '../styles/layout.scss';
 import '../styles/global.scss';
-
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
@@ -41,4 +40,3 @@ const { title, description,keywords } = Astro.props;
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
 </script>
-
