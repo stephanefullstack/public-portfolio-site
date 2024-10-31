@@ -43,30 +43,17 @@ import {nav} from '../data/content';
 	<div class="m-nav-mask"></div>
 </div>
 <script>
-	//======================================================
-	// add mobile menu/m-menu
-	//======================================================
-	function toggleMenu() {
-		const elements = {
-			hamburgerToggle: document.querySelector('.hamburger-toggle'),
-			mNav: document.querySelector('.m-nav'),
-			mNavMask: document.querySelector('.m-nav-mask')
-		};
-	
-		Object.keys(elements).forEach(key => {
-			if (elements[key]) {
-				elements[key].classList.toggle(key === 'hamburgerToggle' ? 'close-line' : 'is-active');
-			}
-		});
-	}
-	
-	const hamburgerToggle = document.querySelector('.hamburger-toggle');
-	const mNavMask = document.querySelector('.m-nav-mask');
-	
-	if (hamburgerToggle) hamburgerToggle.addEventListener('click', toggleMenu);
-	if (mNavMask) mNavMask.addEventListener('click', toggleMenu);
-	</script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = (e: Event) => {
+      document.querySelector('.hamburger-toggle')?.classList.toggle('close-line');
+      document.querySelector('.m-nav')?.classList.toggle('is-active');
+      document.querySelector('.m-nav-mask')?.classList.toggle('is-active');
+    };
 
+    document.querySelector('.hamburger-toggle')?.addEventListener('click', toggle);
+    document.querySelector('.m-nav-mask')?.addEventListener('click', toggle);
+  });
+</script>
 <style lang="scss">
 	//mobile menu m-menu
 
