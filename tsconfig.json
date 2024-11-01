@@ -8,7 +8,6 @@
 			"@/components/*": ["src/components/*.astro"],
 			"@/layouts/*": ["src/layouts/*.astro"],
 			"@/data/*": ["src/data/*"],
-			"@/site-config": ["src/data/site.config.ts"],
 			"@/styles": ["src/styles/"],
 			"@/assets/*": ["src/assets/*"],
 		}

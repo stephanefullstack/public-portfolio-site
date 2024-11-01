@@ -1,5 +1,4 @@
 ---
-import ThemeToggle from './ThemeToggle.astro';
 import {nav} from '../data/content';
 ---
 
@@ -33,7 +32,7 @@ import {nav} from '../data/content';
 							))}
 							<li class="m-menu-li">
 									<div class="theme-toggle" style="transform:scale(1.1);" >
-										<ThemeToggle />
+	
 									</div>
 							</li>
 				</ul>
@@ -44,7 +43,7 @@ import {nav} from '../data/content';
 </div>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const toggle = (e: Event) => {
+    const toggle = () => {
       document.querySelector('.hamburger-toggle')?.classList.toggle('close-line');
       document.querySelector('.m-nav')?.classList.toggle('is-active');
       document.querySelector('.m-nav-mask')?.classList.toggle('is-active');

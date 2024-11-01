@@ -19,6 +19,10 @@ export const nav: Nav = {
         { label: '博客', href: '/blog', target: '_self' },
     ],
 };
+
+// Footer
+export const footerText = `© ${new Date().getFullYear()} Chenxi. All Rights Reserved.`
+
 //SEO TDK
 interface SeoTdk {
 	title?: string

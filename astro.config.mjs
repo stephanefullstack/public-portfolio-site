@@ -4,13 +4,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  // --- 
-  //'shiki' | 'prism' | false
-  // --- 
-  // --- 
-  //你最终部署的链接。Astro 会使用这个完整的链接来生成网站地图和最终构建的规范链接。
-  // site: 'https://www.my-site.dev' 
-  // ---
+
   //   typescript: false,
   // --- 
   //类型：'static' | 'server' | 'hybrid'
@@ -25,17 +19,19 @@ export default defineConfig({
     contentCollectionCache: true,
   },
   markdown: {
-    // 示例：在 Markdown 中使用 prism 进行语法高亮显示
-    // syntaxHighlight: 'prism',
     shikiConfig: {
     theme: "github-dark",
-    // themes: {
-    //   light: 'github-light',
-    //   dark: 'github-dark',
-    // },
+
     wrap: true,
     }
   },
   site: 'https://blog-template.606design.art/',
-  integrations: [sitemap()]
+  integrations: [sitemap()],
+  css: {
+    preprocessorOptions: {
+      sass: {
+        api: "modern",
+      },
+    },
+  },
 })
