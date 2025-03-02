@@ -17,7 +17,7 @@
 - typescript: 5.6.2
 
 ---
-  
+
 ### 字体选择
 
 中文标题字体： 汇文明朝体 <a href="https://tieba.baidu.com/p/7193815211" target="_blank">官方链接</a>
@@ -56,7 +56,7 @@
 		"cover": "/assets/cover/cover-todo.jpg",
 		"title": "待办清单网页版",
 		"desc": "一款优秀的设计简洁的 Todolist 网页版本",
-		"url": "https://todo.606design.art/",
+		"url": "https://todo.uiineed.com/",
 		"detail": "/detail/todo",
 		"category": "web",
 		"tag": "Web",
@@ -65,6 +65,7 @@
 	},
 ]
 ```
+
 ```Typescript
 		"id" // 项目id  可选填
 		"title"  //项目名称  必填
@@ -171,17 +172,17 @@ Yarn Command:
 ### 后续
 
  这是初步的尝试，后面会继续完善。是否添加 Headless CMS 来进行管理，还在考虑中。
- 
+
 ---
 
 ### 关于作者
 
-我是 Rico， 目标是成为一个优秀的设计师和创意开发者，目前专注于网页视觉的技术实现，也研究研究 3D，建建站。目前我在积极的创作一些作品，做有趣和创意性的东西。有兴趣的话，也可以关注一下我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: hello@606design.art。
+我是Rico，网页/UI设计师，目前主要专注在网页视觉开发。在这里了解我的部分作品，或者阅读我的一些文章和笔记。可以关注我的小红书和推特 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: ricocc20@gmail.com
 
 #### Social Media
-- 主题网站地址：  <a href="https://blog.ricocc.com/" target="_blank">Ricocc Blog - blog.ricocc.com</a>
+- Rico's Blog：  <a href="https://blog.ricocc.com/" target="_blank">Ricocc Blog - blog.ricocc.com</a>
 - 小红书：  <a href="https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f" target="_blank">@Rico的设计漫想</a>
-- 站酷：<a href="https://ricocc.zcool.com.cn/?ref=openBlog" target="_blank">Ricocc</a>
+- X: <a href="https://x.com/ricouii/?ref=openBlog" target="_blank">@Ricouii</a>
 - Dribbble： <a href="https://dribbble.com/rrrricocc" target="_blank">Ricocc</a>
 
 ---

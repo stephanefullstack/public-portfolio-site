@@ -57,7 +57,7 @@ const count = cards.length;
                             {card.description}
                           </div>
                       </div>
-                     {card.detail && <a href={card.detail ? card.detail : "javascript:void(0)" } class="card-link card-link__go js-gotip" target={card.detail ? "_blank" : "_self"}>
+                     {card.url && <a href={card.url ? card.url : "javascript:void(0)" } class="card-link card-link__go js-gotip" target={card.url ? "_blank" : "_self"}>
                       </a> }
                   </div>
               </div>
