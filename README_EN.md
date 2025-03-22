@@ -1,11 +1,18 @@
+<a href="/README.md" style="margin-bottom:16px">中文说明</a>
+
 # Designer Portfolio Site - Astro.js
 
 ### Site Preview
-Template Preview: <a href="https://blog-template.606design.art/" target="_blank">https://blog-template.606design.art/</a>
+Template Preview: <a href="https://blog-template.606design.art/" target="_blank">blog-template.606design.art</a>
 
-Repository: <a href="https://github.com/ricocc/public-portfolio-site" target="_blank">https://github.com/ricocc/public-portfolio-site</a>
+Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com</a>
 
-<img src="public/preview.jpg" alt="portfolio-preview" width="640" height="auto" style="display:inline-block;margin:12px;">
+Repository: <a href="https://github.com/ricocc/public-portfolio-site" target="_blank">github.com/ricocc/public-portfolio-site</a>
+
+
+<img src="public/preview01.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
+<img src="public/preview02.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
+<img src="public/preview03.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 ---
 
@@ -103,7 +110,7 @@ Specific project content needs new *.astro pages, manually created and stored in
 
 ---
 
-### 🚀 项目结构
+### 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -163,13 +170,12 @@ Yarn Command:
 
 ### Author
 
-I'm Rico, a Web/UI designer currently focusing on web visual development. Here you can learn about some of my works or read my articles and notes. You can contact me via email: ricocc20@gmail.com
+I'm Rico, a Web/UI designer currently focusing on web visual development. <a href="https://blog.ricocc.com/" target="_blank">Rico's Blog</a> - Here you can learn about some of my works or read my articles and notes.  Focus update on Twitter [@ricouii](https://x.com/ricouii).
 
-#### Social Media
-- X: <a href="https://x.com/ricouii/?ref=openBlog" target="_blank">@Ricouii</a>
 
-- RedNote  <a href="https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f" target="_blank">@Rico的设计漫想</a>
+#### Other Project
+- 💡 Website Inspiration <a href="https://inspoweb.com/" target="_blank">InspoWeb.com</a>
+- 🎉 UIUX UI/UX Tools & Resources <a href="https://uiuxdeck.com/" target="_blank"> UIUXDECK.com</a>
+- 🎨 Free Gradients <a href="http://gradientshub.com/" target="_blank">GradientsHub</a>
+- ✔️ Todo List <a href="https://github.com/ricocc/uiineed-todo-list/" target="_blank">Github</a>
 
-- Rico's Blog：  <a href="https://blog.ricocc.com/" target="_blank">Ricocc Blog - blog.ricocc.com</a>
-
-- Dribbble： <a href="https://dribbble.com/rrrricocc" target="_blank">@Ricocc</a>

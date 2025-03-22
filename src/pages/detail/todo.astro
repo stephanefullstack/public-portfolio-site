@@ -4,7 +4,7 @@ import DetailHeader from "../../components/DetailHeader.astro";
 import DetailPostLayout from "../../layouts/DetailPostLayout.astro";
 import CallToAction from "../../components/CallToAction.astro";
 
-
+//输入文件夹地址，会按文件名自动加载全部，并压缩为webp格式
 const images = await Astro.glob('../../assets/projects/todo/*.{jpg,png,webp}');
 
 ---
@@ -35,8 +35,11 @@ const images = await Astro.glob('../../assets/projects/todo/*.{jpg,png,webp}');
 						<div class="col-1a">
 							<p>
 								<div class="btn">
-									<CallToAction href="https://ricocc.com/todo/" target="_blank">
-										访问站点 
+									<CallToAction href="https://todo.uiineed.com/" target="_blank">
+										访问站点
+									</CallToAction>
+									<CallToAction href="https://github.com/ricocc/uiineed-todo-list" target="_blank">
+										Github
 									</CallToAction>
 								</div>
 							</p>
@@ -58,5 +61,9 @@ const images = await Astro.glob('../../assets/projects/todo/*.{jpg,png,webp}');
 <style>
 img{
 	border:1px solid #ececec;
+}
+.btn{
+	display: flex;
+	gap: 16px;
 }
 </style>

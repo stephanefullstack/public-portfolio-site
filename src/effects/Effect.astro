@@ -44,115 +44,129 @@
 <script is:inline type="module">
 	import { preloadImages } from '/plugins/effects/utils.js';
 	import { ImageTrail } from '/plugins/effects/imageTrail.js';
-				const images = [
-					'bezier.png',
-					'game.png',
-					'hourglass.png',
-					'image.png',
-					'rocket.png',
-					'compass.png',
-					'battery.png',
-					'lamp.png',
-					'coffee-cup.png',
-					'weather.png'
-				];
-				const logoImages = [
-					'apple.png',
-					'blender.png',
-					'dribbble.png',
-					'figma.png',
-					'github.png',
-					'pin.png',
-					'react.png',
-					'sketch.png',
-					'vue.png',
-					'wechat.png'
-				];
-				const glassImages = [
-					'01.png',
-					'02.png',
-					'03.png',
-					'04.png',
-					'05.png',
-					'06.png',
-					'07.png',
-					'08.png',
-					'09.png',
-					'10.png'
-				];
 
-				const effects = document.querySelector('.effects');
-        const effectsImgs = document.querySelectorAll('.effects__img-inner');
+	// 图片数组定义
+	const images = [
+		'bezier.png',
+		'game.png',
+		'hourglass.png',
+		'image.png',
+		'rocket.png',
+		'compass.png',
+		'battery.png',
+		'lamp.png',
+		'coffee-cup.png',
+		'weather.png'
+	];
+	const logoImages = [
+		'apple.png',
+		'blender.png',
+		'dribbble.png',
+		'figma.png',
+		'github.png',
+		'pin.png',
+		'react.png',
+		'sketch.png',
+		'vue.png',
+		'wechat.png'
+	];
+	const glassImages = [
+		'01.png',
+		'02.png',
+		'03.png',
+		'04.png',
+		'05.png',
+		'06.png',
+		'07.png',
+		'08.png',
+		'09.png',
+		'10.png'
+	];
 
-				const buttons = document.querySelectorAll('.train-switch button');
-        let currentState = 0; // Default state
+	// 定义事件，用于组件间通信
+	const EFFECT_CHANGE_EVENT = 'effect-state-changed';
 
-        const changeImages = (imagesArr, folderPath) => {
-            effectsImgs.forEach((img, index) => {
-                img.style.backgroundImage = `url(${folderPath}${imagesArr[index]})`;
-            });
-        };
-				const updateEffectsClass = (state) => {
-            effects.className = 'effects'; // Reset class
-            switch (state) {
-                case 0:
-                    effects.classList.add('train-icons');
-                    break;
-                case 1:
-                    effects.classList.add('train-logo');
-                    break;
-                case 2:
-                    effects.classList.add('train-prism');
-                    break;
-                default:
-                    effects.classList.add('train-icons');
-            }
-        };
-        preloadImages('.effects__img-inner').then(() => {
-            new ImageTrail(document.querySelector('.effects'));
-        });
+	// 获取当前效果状态
+	const getCurrentState = () => {
+		try {
+			// 检查是否过期
+			const expiry = localStorage.getItem('effectStateExpiry');
+			if (expiry && parseInt(expiry) < Date.now()) {
+				// 已过期，清除状态
+				localStorage.removeItem('effectState');
+				localStorage.removeItem('effectStateExpiry');
+				return 0;
+			}
 
+			const savedState = localStorage.getItem('effectState');
+			return savedState ? parseInt(savedState) : 0;
+		} catch (e) {
+			console.error('无法从localStorage读取状态:', e);
+			return 0;
+		}
+	};
 
-				buttons[currentState].style.display = 'block';
-				// 修改按钮点击事件
-				let firstClick = true; // 标记是否为第一次点击
+	// DOM 元素
+	const effects = document.querySelector('.effects');
+	const effectsImgs = document.querySelectorAll('.effects__img-inner');
 
-				// 统一按钮显示逻辑
-				const updateButtonDisplay = (state) => {
-						const buttons = document.querySelectorAll('.train-switch button');
-						buttons.forEach(button => button.style.display = 'none');
-						const nextStateIndex = (state ) % buttons.length;
-						buttons[nextStateIndex].style.display = 'block';
-				};
+	// 更新图片
+	const changeImages = (imagesArr, folderPath) => {
+		effectsImgs.forEach((img, index) => {
+			img.style.backgroundImage = `url(${folderPath}${imagesArr[index]})`;
+		});
+	};
 
-        buttons.forEach((button) => {
-            button.addEventListener('click', () => {
-							if (firstClick) {
-            // 如果是第一次点击，直接切换到第二种状态
-									currentState = 1;
-									firstClick = false; // 标记为非第一次点击
-							} else {
-									// 否则，基于当前状态循环切换
-									currentState = (currentState + 1) % buttons.length;
-        			}
-							updateEffectsClass(currentState);
-                switch (currentState) {
-                    case 0:
-                        changeImages(images, '/assets/effects/3dicons/');
-                        break;
-                    case 1:
-                        changeImages(logoImages, '/assets/effects/logo/');
-                        break;
-                    case 2:
-                        changeImages(glassImages, '/assets/effects/glass-prism/');
-                        break;
-                    default:
-                        changeImages(images, '/assets/effects/3dicons/');
-                }
-								updateButtonDisplay(currentState);
-            });
-        });
-				updateButtonDisplay(currentState);
+	// 更新效果类名
+	const updateEffectsClass = (state) => {
+		effects.className = 'effects'; // 重置类名
+		switch (state) {
+			case 0:
+				effects.classList.add('train-icons');
+				break;
+			case 1:
+				effects.classList.add('train-logo');
+				break;
+			case 2:
+				effects.classList.add('train-prism');
+				break;
+			default:
+				effects.classList.add('train-icons');
+		}
+	};
+
+	// 初始化状态
+	const initializeState = (state) => {
+		updateEffectsClass(state);
+		switch (state) {
+			case 0:
+				changeImages(images, '/assets/effects/3dicons/');
+				break;
+			case 1:
+				changeImages(logoImages, '/assets/effects/logo/');
+				break;
+			case 2:
+				changeImages(glassImages, '/assets/effects/glass-prism/');
+				break;
+			default:
+				changeImages(images, '/assets/effects/3dicons/');
+		}
+	};
+
+	// 图片预加载
+	preloadImages('.effects__img-inner').then(() => {
+		new ImageTrail(document.querySelector('.effects'));
+	});
+
+	// 初始化页面
+	const currentState = getCurrentState();
+	initializeState(currentState);
+
+	// 监听状态变化事件
+	window.addEventListener(EFFECT_CHANGE_EVENT, (e) => {
+		const newState = e.detail.state;
+		initializeState(newState);
+	});
 </script>
 <style>
 .train-switch button{

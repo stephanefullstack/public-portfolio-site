@@ -1,14 +1,22 @@
-# 设计师的个人网站 Designer Portfolio Site - Astro.js
+
+<a href="/README_EN.md" style="margin-bottom:16px">ENGLISH README</a>
+
+# 设计师的个人网站 Designer Portfolio Site
 
 ### 网站预览
-预览模板地址:  <a href="https://blog-template.606design.art/" target="_blank">https://blog-template.606design.art/</a>
+预览模板地址:  <a href="https://blog-template.606design.art/" target="_blank">blog-template.606design.art</a>
 
-仓库地址:   <a href="https://github.com/ricocc/public-portfolio-site" target="_blank"> https://github.com/ricocc/public-portfolio-site </a>
+Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com</a>
 
-<img src="public/preview.jpg" alt="ricocc-wechat" width="640" height="auto" style="display:inline-block;margin:12px;">
+仓库地址:   <a href="github.com/ricocc/public-portfolio-site" target="_blank"> https://github.com/ricocc/public-portfolio-site </a>
+
+<img src="public/preview-01.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
+
+<img src="public/preview-02.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
+
+<img src="public/preview-03.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 ---
-
 
 ### 技术栈
 
@@ -144,17 +152,6 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ### 🧞 启动
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:4321`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
 
 Yarn Command:
 
@@ -169,23 +166,19 @@ Yarn Command:
 
 ---
 
-### 后续
-
- 这是初步的尝试，后面会继续完善。是否添加 Headless CMS 来进行管理，还在考虑中。
-
----
 
 ### 关于作者
 
-我是Rico，网页/UI设计师，目前主要专注在网页视觉开发。在这里了解我的部分作品，或者阅读我的一些文章和笔记。可以关注我的小红书和推特 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f)，或者通过邮件联系我: ricocc20@gmail.com
+我是Rico，网页/UI设计师，目前主要专注在网页视觉和独立开发。我平时在博客<a href="https://blog.ricocc.com/" target="_blank">Rico's Blog</a>更新内容。也可以关注我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 推特 [@ricouii](https://x.com/ricouii).
 
-#### Social Media
-- Rico's Blog：  <a href="https://blog.ricocc.com/" target="_blank">Ricocc Blog - blog.ricocc.com</a>
-- 小红书：  <a href="https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f" target="_blank">@Rico的设计漫想</a>
-- X: <a href="https://x.com/ricouii/?ref=openBlog" target="_blank">@Ricouii</a>
-- Dribbble： <a href="https://dribbble.com/rrrricocc" target="_blank">Ricocc</a>
 
----
+#### 项目
+- 💡 网页灵感库 <a href="https://inspoweb.com/" target="_blank">InspoWeb.com</a>
+- 🎉 UIUX 工具&资源 <a href="https://uiuxdeck.com/" target="_blank"> UIUXDECK.com</a>
+- 🎨 原创免费渐变 <a href="http://gradientshub.com/" target="_blank">GradientsHub</a>
+- ✔️ Todo List <a href="https://github.com/ricocc/uiineed-todo-list/" target="_blank">Github</a>
+
+
 
 ### 💜支持作者
 

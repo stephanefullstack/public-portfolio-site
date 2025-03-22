@@ -16,7 +16,7 @@ const { title, description,keywords } = Astro.props;
 	</head>
 	<body class="_body">
 		<div class="">
-			<Nav/>
+			<Nav transition:persist/>
 			<slot />
 			<Footer />
 		</div>
