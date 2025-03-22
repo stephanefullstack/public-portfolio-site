@@ -3,7 +3,6 @@
 # Designer Portfolio Site - Astro.js
 
 ### Site Preview
-Template Preview: <a href="https://blog-template.606design.art/" target="_blank">blog-template.606design.art</a>
 
 Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com</a>
 
@@ -11,8 +10,6 @@ Repository: <a href="https://github.com/ricocc/public-portfolio-site" target="_b
 
 
 <img src="public/preview01.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
-<img src="public/preview02.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
-<img src="public/preview03.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 ---
 

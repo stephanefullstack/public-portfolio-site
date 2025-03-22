@@ -4,17 +4,12 @@
 # 设计师的个人网站 Designer Portfolio Site
 
 ### 网站预览
-预览模板地址:  <a href="https://blog-template.606design.art/" target="_blank">blog-template.606design.art</a>
-
 Rico's Blog:  <a href="https://blog.ricocc.com/" target="_blank">blog.ricocc.com</a>
 
 仓库地址:   <a href="github.com/ricocc/public-portfolio-site" target="_blank"> https://github.com/ricocc/public-portfolio-site </a>
 
 <img src="public/preview-01.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
 
-<img src="public/preview-02.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
-
-<img src="public/preview-03.jpg" alt="Blog Preview" width="640" height="auto" style="display:inline-block;margin:12px;">
 
 ---
 
