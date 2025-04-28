@@ -82,6 +82,18 @@
 		'computer.png',
 		'delete.png'
 	];
+	const need3d = [
+		'01.png',
+		'02.png',
+		'03.png',
+		'04.png',
+		'05.png',
+		'06.png',
+		'07.png',
+		'08.png',
+		'09.png',
+		'10.png'
+	];
 
 	// 定义事件，用于组件间通信
 	const EFFECT_CHANGE_EVENT = 'effect-state-changed';
@@ -146,7 +158,7 @@
 				changeImages(logoImages, '/assets/effects/logo/');
 				break;
 			case 2:
-				changeImages(uiImages, '/assets/effects/uiicons/');
+				changeImages(need3d, '/assets/effects/need3d/');
 				break;
 			default:
 				changeImages(images, '/assets/effects/3dicons/');
@@ -217,7 +229,7 @@
 </style>
 <style>
 :root {
-	--img-width: 108px;
+	--img-width: 90px;
 	--img-ratio: 1/1;
 	--img-offset-x: 0px;
 	--img-offset-y: 00px;

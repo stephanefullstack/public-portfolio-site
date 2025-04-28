@@ -1,10 +1,9 @@
 // https://astro.build/config
 import { defineConfig } from 'astro/config';
-
 import sitemap from '@astrojs/sitemap';
 
+const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://blog-template.606design.art/';
 export default defineConfig({
-
   //   typescript: false,
   // --- 
   //类型：'static' | 'server' | 'hybrid'
@@ -14,18 +13,14 @@ export default defineConfig({
   // hybrid - 构建包含少量服务端渲染页面的静态网站。
   // output: 'static'
   // --- 
-  // 增量构建
-  experimental: {
-    contentCollectionCache: true,
-  },
   markdown: {
     shikiConfig: {
     theme: "github-dark",
-
     wrap: true,
     }
   },
-  site: 'https://blog-template.606design.art/',
+  envPrefix: 'PUBLIC_',
+  site: SITE_URL,
   integrations: [sitemap()],
   css: {
     preprocessorOptions: {

@@ -15,7 +15,7 @@ Repository: <a href="https://github.com/ricocc/public-portfolio-site" target="_b
 
 ### Tech Stack
 
-- Astro.js 4.15.9
+- Astro.js 5.7.5
 - Sass 1.79.4
 - TypeScript 5.6.2
 
@@ -46,6 +46,24 @@ For the About page, you need to manually add your personal introduction. For blo
 The main website information is stored in `src/data/content.ts`
 Modify the corresponding data as needed
 Some parts need to be modified manually in the pages
+
+#### Environment Variables Configuration
+The `.env` file is used to set environment variables for the application. You can copy the contents from `.env.example` to `.env` and fill in the required values. Note that the `.env` file should not be committed to version control, and Git will automatically ignore it.
+
+In the `.env` file, you can set the following variables:
+
+- `PUBLIC_SITE_URL`: The public URL of the site.
+- `PUBLIC_SITE_NAME`: The name of the site.
+- `PUBLIC_GA4_ID`: (Not required) Google Analytics 4 ID.
+- `PUBLIC_UMAMI_ID`: (Not required) Umami ID.
+
+**Google Analytics 和 Umami 分析**
+- https://analytics.google.com/
+- https://umami.is/
+
+Ensure these variables are correctly set in both local development and production environments for proper application functionality.
+
+
 
 #### Project Showcase on Index Page
 Project data is stored in
@@ -163,7 +181,11 @@ Yarn Command:
 
 ---
 
+### Roadmap
 
+- **2025/04/28:** Added effects open-source need3d Abstraction series icons, available at [need3d.ru](https://need3d.ru/). The author is [@ilyarygin](https://www.instagram.com/ilyarygin).
+
+- **2025/04/28:** Update version to `Astro.js 5.7.5`; Added .env.example file for configuring site information, with optional defaults for Google Analytics 4 and Umami IDs.
 
 ### Author
 
